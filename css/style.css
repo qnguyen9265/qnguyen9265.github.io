@@ -6,14 +6,30 @@ nav {
     background: #de4949;
 =======
     background: #444;
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6a6c685 (Created mobile-friendly navbar with Bootstrap)
 =======
     background: #de4949;
 >>>>>>> 9fd4e55 (included basic hero section)
+=======
+=======
+>>>>>>> c5397b8 (Created mobile-friendly navbar with Bootstrap)
+>>>>>>> 079af18 (Created mobile-friendly navbar with Bootstrap)
+=======
+    background: #de4949;
+>>>>>>> a8d83e1 (included basic hero section)
+<<<<<<< HEAD
+>>>>>>> 33dfec8 (Created mobile-friendly navbar with Bootstrap)
+=======
+>>>>>>> c5397b8 (Created mobile-friendly navbar with Bootstrap)
     padding: 0.5rem;
 }
 
 nav a {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     color: #b73d3d;
@@ -77,8 +93,18 @@ footer {
     margin: 0 1rem;
     text-decoration: none;
 }
+<<<<<<< HEAD
 >>>>>>> 6a6c685 (Created mobile-friendly navbar with Bootstrap)
 =======
+>>>>>>> 079af18 (Created mobile-friendly navbar with Bootstrap)
+>>>>>>> 33dfec8 (Created mobile-friendly navbar with Bootstrap)
+=======
+=======
+>>>>>>> 6c01f6d (Created mobile-friendly navbar with Bootstrap)
+=======
+>>>>>>> e5fe5b1 (Created mobile-friendly navbar with Bootstrap)
+=======
+>>>>>>> c5397b8 (Created mobile-friendly navbar with Bootstrap)
     color: #b73d3d;
     margin: 0 1rem;
     text-decoration: none;
@@ -89,6 +115,13 @@ footer {
     justify-content: center;
     background-color: #d4d4d4;
     padding: 0.5rem;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 23b466f (updated navbar id name)
+=======
+>>>>>>> 23b466f (updated navbar id name)
 
     position: absolute;
     width: 100%;
@@ -102,6 +135,24 @@ footer {
     width: 100%;
     z-index: 1000;
     background-color: #d4d4d4;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 33dfec8 (Created mobile-friendly navbar with Bootstrap)
+=======
+>>>>>>> e5fe5b1 (Created mobile-friendly navbar with Bootstrap)
+<<<<<<< HEAD
+>>>>>>> 6179729 (updated navbar id name)
+=======
+=======
+>>>>>>> 23b466f (updated navbar id name)
+<<<<<<< HEAD
+>>>>>>> 7ed57f7 (updated navbar id name)
+=======
+=======
+>>>>>>> 23b466f (updated navbar id name)
+>>>>>>> e41b229 (updated navbar id name)
 }
 
 .nav-item {
@@ -111,9 +162,34 @@ footer {
 }
 
 footer {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     position: relative;
     bottom: 0;
     width: 100%;
+=======
+<<<<<<< HEAD
+>>>>>>> 33dfec8 (Created mobile-friendly navbar with Bootstrap)
+=======
+>>>>>>> e5fe5b1 (Created mobile-friendly navbar with Bootstrap)
+<<<<<<< HEAD
+>>>>>>> 6179729 (updated navbar id name)
+=======
+=======
+    position: relative;
+    bottom: 0;
+    width: 100%;
+>>>>>>> 23b466f (updated navbar id name)
+<<<<<<< HEAD
+>>>>>>> 7ed57f7 (updated navbar id name)
+=======
+=======
+    position: relative;
+    bottom: 0;
+    width: 100%;
+>>>>>>> 23b466f (updated navbar id name)
+>>>>>>> e41b229 (updated navbar id name)
     text-align: center;
     background-color: #cccccc;
     /*margin: auto;
@@ -124,8 +200,15 @@ footer {
     height: 100vh;
     background-color: #cecece;
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 }                                                                               
+<<<<<<< HEAD
 >>>>>>> 9fd4e55 (included basic hero section)
+=======
+>>>>>>> a8d83e1 (included basic hero section)
+>>>>>>> 6179729 (updated navbar id name)
 =======
 }
 
@@ -139,4 +222,173 @@ footer {
     height: 100vh;
     background-color: #cecece;
 }   
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 78a8f66 (Navbar starts below hero section and sticks to top after)
+=======
+}                                                                               
+>>>>>>> a8d83e1 (included basic hero section)
+>>>>>>> 33dfec8 (Created mobile-friendly navbar with Bootstrap)
+=======
+=======
+>>>>>>> 7924378 (Created mobile-friendly navbar with Bootstrap)
+=======
+>>>>>>> dc4de44 (Created basic index.html homepage)
+>>>>>>> 160cd9e (Navbar starts below hero section and sticks to top after)
+=======
+}                                                                               
+>>>>>>> a8d83e1 (included basic hero section)
+>>>>>>> e5fe5b1 (Created mobile-friendly navbar with Bootstrap)
+<<<<<<< HEAD
+>>>>>>> 6179729 (updated navbar id name)
+=======
+=======
+}                                                                               
+>>>>>>> a8d83e1 (included basic hero section)
+=======
+}
+
+.about {
+    padding-top: 150px;
+    height: 100vh;
+    background-color: #cecece;
+}   
+
+.projects {
+    height: 100vh;
+    background-color: #cecece;
+}   
+>>>>>>> 160cd9e (Navbar starts below hero section and sticks to top after)
+>>>>>>> 23b466f (updated navbar id name)
+<<<<<<< HEAD
+>>>>>>> 7ed57f7 (updated navbar id name)
+=======
+=======
+=======
+>>>>>>> e5fe5b1 (Created mobile-friendly navbar with Bootstrap)
+=======
+>>>>>>> c5397b8 (Created mobile-friendly navbar with Bootstrap)
+=======
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+>>>>>>> 079af18 (Created mobile-friendly navbar with Bootstrap)
+=======
+    color: #b73d3d;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #d4d4d4;
+    padding: 0.5rem;
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+    position: absolute;
+    width: 100%;
+    top: 100vh;
+}
+
+.scrolled-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #d4d4d4;
+=======
+>>>>>>> e5fe5b1 (Created mobile-friendly navbar with Bootstrap)
+=======
+>>>>>>> c5397b8 (Created mobile-friendly navbar with Bootstrap)
+}
+
+.nav-item {
+    margin: 0 0.5rem;
+    font-weight: bold;
+    /*background-color: #838383;*/
+}
+
+footer {
+<<<<<<< HEAD
+<<<<<<< HEAD
+    position: relative;
+    bottom: 0;
+    width: 100%;
+=======
+>>>>>>> e5fe5b1 (Created mobile-friendly navbar with Bootstrap)
+=======
+>>>>>>> c5397b8 (Created mobile-friendly navbar with Bootstrap)
+    text-align: center;
+    background-color: #cccccc;
+    /*margin: auto;
+    width: 50%;*/
+}
+
+.hero {
+    height: 100vh;
+    background-color: #cecece;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+}                                                                               
+>>>>>>> a8d83e1 (included basic hero section)
+<<<<<<< HEAD
+>>>>>>> 6c01f6d (Created mobile-friendly navbar with Bootstrap)
+<<<<<<< HEAD
+>>>>>>> 7924378 (Created mobile-friendly navbar with Bootstrap)
+=======
+=======
+=======
+}
+
+.about {
+    padding-top: 150px;
+    height: 100vh;
+    background-color: #cecece;
+}   
+
+.projects {
+    height: 100vh;
+    background-color: #cecece;
+}   
+>>>>>>> 160cd9e (Navbar starts below hero section and sticks to top after)
+>>>>>>> be2ef49 (updated navbar id name)
+<<<<<<< HEAD
+>>>>>>> 0b0be5a (updated navbar id name)
+=======
+=======
+}                                                                               
+>>>>>>> a8d83e1 (included basic hero section)
+>>>>>>> e5fe5b1 (Created mobile-friendly navbar with Bootstrap)
+<<<<<<< HEAD
+>>>>>>> dc4de44 (Created basic index.html homepage)
+=======
+=======
+}                                                                               
+>>>>>>> a8d83e1 (included basic hero section)
+=======
+}
+
+.about {
+    padding-top: 150px;
+    height: 100vh;
+    background-color: #cecece;
+}   
+
+.projects {
+    height: 100vh;
+    background-color: #cecece;
+}   
+>>>>>>> 160cd9e (Navbar starts below hero section and sticks to top after)
+>>>>>>> 23b466f (updated navbar id name)
+>>>>>>> e41b229 (updated navbar id name)
+=======
+}                                                                               
+>>>>>>> a8d83e1 (included basic hero section)
+>>>>>>> c5397b8 (Created mobile-friendly navbar with Bootstrap)
