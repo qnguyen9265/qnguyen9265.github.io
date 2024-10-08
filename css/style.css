@@ -90,6 +90,9 @@ footer {
     background-color: #d4d4d4;
     padding: 0.5rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 23b466f (updated navbar id name)
 
     position: absolute;
     width: 100%;
@@ -103,8 +106,11 @@ footer {
     width: 100%;
     z-index: 1000;
     background-color: #d4d4d4;
+<<<<<<< HEAD
 =======
 >>>>>>> e5fe5b1 (Created mobile-friendly navbar with Bootstrap)
+=======
+>>>>>>> 23b466f (updated navbar id name)
 }
 
 .nav-item {
@@ -115,11 +121,17 @@ footer {
 
 footer {
 <<<<<<< HEAD
+<<<<<<< HEAD
     position: relative;
     bottom: 0;
     width: 100%;
 =======
 >>>>>>> e5fe5b1 (Created mobile-friendly navbar with Bootstrap)
+=======
+    position: relative;
+    bottom: 0;
+    width: 100%;
+>>>>>>> 23b466f (updated navbar id name)
     text-align: center;
     background-color: #cccccc;
     /*margin: auto;
@@ -129,6 +141,7 @@ footer {
 .hero {
     height: 100vh;
     background-color: #cecece;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 }                                                                               
@@ -151,3 +164,21 @@ footer {
 }                                                                               
 >>>>>>> a8d83e1 (included basic hero section)
 >>>>>>> e5fe5b1 (Created mobile-friendly navbar with Bootstrap)
+=======
+}                                                                               
+>>>>>>> a8d83e1 (included basic hero section)
+=======
+}
+
+.about {
+    padding-top: 150px;
+    height: 100vh;
+    background-color: #cecece;
+}   
+
+.projects {
+    height: 100vh;
+    background-color: #cecece;
+}   
+>>>>>>> 160cd9e (Navbar starts below hero section and sticks to top after)
+>>>>>>> 23b466f (updated navbar id name)
