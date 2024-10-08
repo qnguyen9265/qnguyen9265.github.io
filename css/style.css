@@ -289,6 +289,9 @@ footer {
     padding: 0.5rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b20d95f (updated navbar id name)
 
     position: absolute;
     width: 100%;
@@ -304,8 +307,11 @@ footer {
     background-color: #d4d4d4;
 =======
 >>>>>>> e5fe5b1 (Created mobile-friendly navbar with Bootstrap)
+<<<<<<< HEAD
 =======
 >>>>>>> c5397b8 (Created mobile-friendly navbar with Bootstrap)
+=======
+>>>>>>> b20d95f (updated navbar id name)
 }
 
 .nav-item {
@@ -317,13 +323,19 @@ footer {
 footer {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b20d95f (updated navbar id name)
     position: relative;
     bottom: 0;
     width: 100%;
 =======
 >>>>>>> e5fe5b1 (Created mobile-friendly navbar with Bootstrap)
+<<<<<<< HEAD
 =======
 >>>>>>> c5397b8 (Created mobile-friendly navbar with Bootstrap)
+=======
+>>>>>>> b20d95f (updated navbar id name)
     text-align: center;
     background-color: #cccccc;
     /*margin: auto;
@@ -333,6 +345,7 @@ footer {
 .hero {
     height: 100vh;
     background-color: #cecece;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -370,6 +383,8 @@ footer {
 >>>>>>> dc4de44 (Created basic index.html homepage)
 =======
 =======
+=======
+>>>>>>> b20d95f (updated navbar id name)
 }                                                                               
 >>>>>>> a8d83e1 (included basic hero section)
 =======
@@ -386,9 +401,16 @@ footer {
     background-color: #cecece;
 }   
 >>>>>>> 160cd9e (Navbar starts below hero section and sticks to top after)
+<<<<<<< HEAD
 >>>>>>> 23b466f (updated navbar id name)
 >>>>>>> e41b229 (updated navbar id name)
 =======
 }                                                                               
 >>>>>>> a8d83e1 (included basic hero section)
 >>>>>>> c5397b8 (Created mobile-friendly navbar with Bootstrap)
+=======
+=======
+}                                                                               
+>>>>>>> a8d83e1 (included basic hero section)
+>>>>>>> e5fe5b1 (Created mobile-friendly navbar with Bootstrap)
+>>>>>>> b20d95f (updated navbar id name)
