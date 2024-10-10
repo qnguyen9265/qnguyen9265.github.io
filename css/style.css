@@ -16,6 +16,19 @@ nav a {
     justify-content: center;
     background-color: #d4d4d4;
     padding: 0.5rem;
+
+    position: absolute;
+    width: 100%;
+    top: 100vh;
+}
+
+.scrolled-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #d4d4d4;
 }
 
 .nav-item {
@@ -25,6 +38,9 @@ nav a {
 }
 
 footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     background-color: #cccccc;
     /*margin: auto;
@@ -34,4 +50,15 @@ footer {
 .hero {
     height: 100vh;
     background-color: #cecece;
-}                                                                               
+}
+
+.about {
+    padding-top: 150px;
+    height: 100vh;
+    background-color: #cecece;
+}   
+
+.projects {
+    height: 100vh;
+    background-color: #cecece;
+}   
