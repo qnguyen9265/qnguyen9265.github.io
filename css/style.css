@@ -42,9 +42,8 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-    background-color: #cccccc;
-    /*margin: auto;
-    width: 50%;*/
+    background-color: #adadad;
+    margin: auto;
 }
 
 .hero {
