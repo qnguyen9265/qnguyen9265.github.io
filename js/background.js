@@ -19,6 +19,7 @@ let pointerX = window.innerWidth / 2,
 let velocity = { x: 0, y: 0, tx: 0, ty: 0, z: 0.0005 };
 
 let touchInput = false;
+const heroSection = document.getElementById('hero');
 
 generate();
 resize();
@@ -173,8 +174,16 @@ function movePointer( x, y ) {
         let ox = x - pointerX,
             oy = y - pointerY;
 
-        velocity.tx = velocity.tx + ( ox / 8*scale ) * ( touchInput ? 1 : -1 );
-        velocity.ty = velocity.ty + ( oy / 8*scale ) * ( touchInput ? 1 : -1 );
+        let mouseInHero = false;
+        if (heroSection) {
+            const rect = heroSection.getBoundingClientRect();
+            mouseInHero = x >= rect.left && x <= rect.right && y >= rect.top && y <= rect.bottom;
+        }
+
+        if (mouseInHero) {
+            velocity.tx = velocity.tx + ( ox / 8*scale ) * ( touchInput ? 1 : -1 );
+            velocity.ty = velocity.ty + ( oy / 8*scale ) * ( touchInput ? 1 : -1 );
+        }
     }
     pointerX = x;
     pointerY = y;
