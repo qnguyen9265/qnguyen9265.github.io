@@ -101,3 +101,21 @@ canvas {
 .carousel-caption{
     color:rgb(37, 37, 37);
 }
+
+.carousel-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    pointer-events: auto;
+}
+
+.carousel-inner {
+    overflow: hidden;
+}
+
+.carousel-item {
+    will-change: transform;
+}
+
+h1 {
+    font-weight: bold;
+}
