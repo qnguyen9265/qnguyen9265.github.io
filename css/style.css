@@ -16,7 +16,7 @@ nav a {
 }
 
 .navbar {
-    background-color: #bfbfbf;
+    background-color: rgba(50, 51, 58, 0.9); 
     padding: 0.5rem;
     pointer-events: auto;
 }
@@ -26,6 +26,8 @@ nav a {
     top: 0;
     width: 100%;
     z-index: 1000;
+    background-color: rgba(50, 51, 58, 0.9);
+    backdrop-filter: blur(15px);
 }
 
 .scrolled-navbar + .about,
@@ -38,7 +40,13 @@ nav a {
 .nav-item {
     margin: 0 0.5rem;
     font-weight: bold;
-    /*background-color: #838383;*/
+}
+
+.nav-link {
+    color: #9c9c9c;
+    --bs-navbar-active-color: rgb(54, 8, 255);
+    --bs-nav-link-hover-color: rgb(54, 8, 255);
+    font-size: 1.2rem;
 }
 
 .hero,
@@ -66,6 +74,12 @@ nav a {
 .nav-link,
 .navbar-toggler {
     pointer-events: auto;
+}
+
+.btn {
+    background-color: #bfbfbf;
+    color: #000;
+    border-color: #000;
 }
 
 footer {
