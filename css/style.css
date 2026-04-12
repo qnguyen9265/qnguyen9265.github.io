@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'ArtemisInter';
+    src: url('../assets/fonts/Artemis_Inter_041621.otf') format('opentype');
+}
+
 :root{
     --nav-height: 60px;
 }
@@ -5,12 +10,10 @@
 nav {
     display: flex;
     justify-content: center;
-    background: #de4949;
     padding: 0.5rem;
 }
 
 nav a {
-    color: #b73d3d;
     margin: 0 1rem;
     text-decoration: none;
 }
@@ -28,13 +31,6 @@ nav a {
     z-index: 1000;
     background-color: rgba(50, 51, 58, 0.9);
     backdrop-filter: blur(15px);
-}
-
-.scrolled-navbar + .about,
-.scrolled-navbar + .projects,
-.scrolled-navbar + .contact {
-    padding-top: var(--nav-height);
-    height: calc(100vh - var(--nav-height));
 }
 
 .nav-item {
@@ -70,18 +66,36 @@ nav a {
     pointer-events: auto;
 }
 
+.about, .projects, .contact {
+    padding-top: var(--nav-height);
+    height: calc(100vh - var(--nav-height));
+    /* scroll-margin-top: var(--nav-height); */
+}
+
 h1 {
-    font-weight: bold;
+    font-family: 'ArtemisInter';
+    font-size: 3vw;
+}
+
+.hero h1, .hero p {
+    white-space: nowrap;
 }
 
 .hero h1 {
-    font-weight: normal;
-    font-size: 3rem;
+    font-size: 10vw;
+    letter-spacing: 0.5em;
 }
 
 .hero p {
-    font-size: 2.5rem;
+    font-size: 2vw;
+    letter-spacing: 0.3em;
     margin-top: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.about h1 {
+    position: relative;
+    top: calc(var(--nav-height) * 2);
 }
 
 .btn,
@@ -130,8 +144,30 @@ canvas {
     left: 0;
 }
 
+.bio-icon {
+    font-size: 300px;
+    color: rgb(246, 246, 246);
+}
+
+.bio-summary {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.skill-icon {
+    font-size: 85px;
+    margin: 0.7rem;
+}
+
+.carousel {
+    overflow: hidden; 
+    padding-bottom: 12rem;
+}
+
 .carousel-caption{
-    color:rgb(37, 37, 37);
+    color: rgb(246, 246, 246);
+    top: 100%;
+    font-size: 1vw;
 }
 
 .carousel-wrapper {
@@ -141,8 +177,28 @@ canvas {
 }
 
 .carousel-inner {
-    overflow: hidden;
+    overflow: visible;
 }
+
+.carousel-control-next, 
+.carousel-control-prev, 
+.carousel-indicators { 
+    bottom: 12rem;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    filter: invert(100%);
+}
+
+/*
+.carousel-control-prev {
+    margin-left: -25px;
+}
+
+.carousel-control-next {
+    margin-right: -25px;
+} */
 
 .carousel-item {
     will-change: transform;
@@ -165,12 +221,12 @@ canvas {
 }
 
 .contact form {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .contact form button {
-  align-self: flex-end;
-  font-size: 1rem;
-  width: 80px;
+    align-self: flex-end;
+    font-size: 1rem;
+    width: 80px;
 }
